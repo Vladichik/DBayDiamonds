@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:textColor="@color/blue_main_color"
+    android:layout_width="wrap_content"
+    android:textSize="@dimen/popup_list_items"
+    android:height="25dp"
+    android:paddingLeft="15px"
+    android:paddingRight="15px"
+    android:layout_height="match_parent" />

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/diams_picker"
+            android:minWidth="300dp"
+            android:background="@drawable/spinner_diamonds_style"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question"
+            android:background="@drawable/states_buttons"
+            android:layout_gravity="right"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#ffffff"
+            android:id="@+id/ask_question" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="7dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_marginLeft="40dp"
+            android:layout_height="wrap_content"
+            android:text="@string/dms_shape"
+            android:gravity="left"
+            android:textSize="@dimen/font_size_headers"
+            android:layout_gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="@color/headers_color"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/dms_carat"
+            android:gravity="left"
+            android:textSize="@dimen/font_size_headers"
+            android:layout_gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="@color/headers_color"/>
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="@string/dms_color"
+            android:gravity="left"
+            android:textSize="@dimen/font_size_headers"
+            android:layout_gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="@color/headers_color"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/dms_clarity"
+            android:gravity="left"
+            android:textSize="@dimen/font_size_headers"
+            android:layout_gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="@color/headers_color"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/dms_polish"
+            android:gravity="left"
+            android:textSize="@dimen/font_size_headers"
+            android:layout_gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="@color/headers_color"/>
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/dms_symmetry"
+            android:gravity="left"
+            android:textSize="@dimen/font_size_headers"
+            android:layout_gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="@color/headers_color"/>
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="@string/dms_florescece"
+            android:gravity="left"
+            android:textSize="@dimen/font_size_headers"
+            android:layout_gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="@color/headers_color"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dms_certificate"
+            android:layout_weight="1"
+            android:textSize="@dimen/font_size_headers"
+            android:layout_gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="@color/headers_color"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dms_dimmentions"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:textSize="@dimen/font_size_headers"
+            android:layout_gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="@color/headers_color"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/listview_border"
+            android:divider="#55539cf6"
+            android:dividerHeight="1px"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:id="@android:id/list" />
+
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/diamonds_preloader"
+            android:visibility="gone"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+
+</LinearLayout>

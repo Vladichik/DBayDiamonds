@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentStart="true"
+    android:id="@+id/camera_hub"
+    android:background="@drawable/main_bgr_style">
+
+    <fragment
+        android:name="main.dbay.combined.CombinedActivity"
+        android:id="@+id/fragment_place"
+        android:layout_width="430dp"
+        android:layout_height="match_parent" />
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="10dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@drawable/bgr_fragment_separator"-->
+        <!--android:orientation="horizontal">-->
+
+    <!--</LinearLayout>-->
+
+    <fragment
+        android:name="main.dbay.ItemStageCombibedFragment"
+        android:id="@+id/data_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+</LinearLayout>

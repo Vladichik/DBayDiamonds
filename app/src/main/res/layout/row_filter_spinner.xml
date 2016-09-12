@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="@color/dropdown_background"
+    android:paddingBottom="3dp"
+    android:paddingTop="3dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:textColor="@color/blue_main_color"
+        android:layout_marginLeft="10dp"
+        android:textSize="@dimen/font_size_main_buttons"
+        android:id="@+id/spinner_row" />
+</LinearLayout>

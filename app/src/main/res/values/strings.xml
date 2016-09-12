@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DBay</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="loading">Загрузка...</string>
+    <string name="version">Ver 5.00</string>
+    <string name="diamonds_btn">Бриллианты</string>
+    <string name="rings_btn">Кольца</string>
+    <string name="earings_btn">Серьги</string>
+    <string name="necklace_btn">Разное</string>
+    <string name="combined_btn">Цветные</string>
+    <string name="fast_delivery_btn">По скидке</string>
+    <string name="bazar_btn">DBay Базар</string>
+    <string name="rapaport_btn">Рапапорт</string>
+    <string name="favorites_btn">Избранное</string>
+    <string name="payment_btn">Оплата</string>
+    <string name="about_dbay">Контакты</string>
+    <string name="transactions">Переводы</string>
+    <string name="show">Показать</string>
+    <string name="question">Обратиться</string>
+    <string name="dms_shape">Форма</string>
+    <string name="dms_carat">Вес</string>
+    <string name="dms_color">Цвет</string>
+    <string name="dms_clarity">Чистота</string>
+    <string name="dms_polish">Полиш</string>
+    <string name="dms_symmetry">Симметрия</string>
+    <string name="dms_florescece">Флуоресценция</string>
+    <string name="dms_certificate">Сертификат</string>
+    <string name="dms_dimmentions">Размер</string>
+    <string name="no_diam_selected_warn">Пожалуйста отметьте хотя бы одну позицию</string>
+    <string name="max_ammount_reached">Вы отметили максимально разрешенное количество позиций. Если Вам требуется помощь в выборе бриллианта, пожалуйста свяжитесь с нами.</string>
+    <string name="go_on_btn">Далее</string>
+    <string name="diam_dialog_message">Далее Вы сможете обратиться к нам и задать вопрос по указанным ниже позициям: </string>
+    <string name="choose_certificate">Желаемый сетификат:</string>
+    <string name="choose_certificate_toast">Пожалуйста укажите желаемый сертификат.</string>
+    <string name="no_mail_registered">Не обнаружен зарегистрированный почтовый ящик.</string>
+    <string name="email_subject">Вопрос в DBay:</string>
+    <string name="hello_dbay">Здравствуйте DBay</string>
+    <string name="contact_dbay">Обратиться в DBay</string>
+    <string name="email_body_start">Здравствуйте.\nУкажите пожалуйста цену: \n\n</string>
+    <string name="rings_under_five">До 5000$</string>
+    <string name="rings_five_ten">5000$ - 10000$</string>
+    <string name="rings_above_ten">От 10000$</string>
+    <string name="center_stone">Центр:</string>
+    <string name="metal">Метал: </string>
+    <string name="total_weight">Общий вес бриллиантов: </string>
+    <string name="central_stone">Центр:</string>
+    <string name="weight">Вес:</string>
+    <string name="color">Цвет:</string>
+    <string name="clarity">Чистота:</string>
+    <string name="certificate">Сертификат:</string>
+    <string name="item_description">Описание:</string>
+    <string name="ok">ОК</string>
+    <string name="no_internet_txt">Не обнаружено подключение к интернету. Для использования приложения требуется подключение к интернету.</string>
+    <string name="verification_dialog_string">Далее Вы сможете задать нам вопрос по поводу данного изделия.</string>
+    <string name="verification_dialog_camera_string">Далее Вы сможете виртуально примерить данное изделие на своей руке с помощью камеры в Вашем аппарате.</string>
+    <string name="verification_dialog_cancel">Отменить</string>
+    <string name="verification_dialog_proceed">Продолжить</string>
+    <string name="question_mail_ttl">Вопрос по </string>
+    <string name="fast_item_description">Описание:</string>
+    <string name="fast_item_page_ttl">Изделия со скидкой:</string>
+    <string name="about_us_txt">Компания DBay специализируется на продаже огранённых бриллиантов, оптом и в розницу, напрямую от производителя. Все бриллианты сертифицированы GIA, EGL, IGL. Покупая бриллианты у нас, Вы можете быть уверены, что приобретаете высококачественный и сертифицированный товар, минуя посредников.</string>
+    <string name="website_address">www.d-bay.co.il</string>
+    <string name="email_address">dbayinfo@gmail.com</string>
+    <string name="phone_number">+(972)-54-7150579</string>
+    <string name="address">Ул. Жаботински 3, Рамат-Ган, Израиль</string>
+    <string name="camera_tootlip">Данная функция позволяет виртуально примерить изделие на руке. Пропорции изделия на экране могут немного отличаться от настоящих.</string>
+    <string name="sql_item_added">Данное изделие добавлено в Ваш список избранного.</string>
+    <string name="sql_item_removed">Данное изделие удалено из Вашего списка избранного.</string>
+    <string name="favorites_list_empty">СПИСОК ПУСТ</string>
+    <string name="paypal_pay_btn">ОПЛАТИТЬ</string>
+    <string name="paypal_fill_price">Введите сумму в долларах США</string>
+    <string name="paypal_message">Здесь Вы можете осуществить денежный перевод суммы заранее обговоренной с администрацией DBay.
+Перевод осуществляется через защищенный терминал PayPal. После введения суммы и нажатия кнопки ОПЛАТИТЬ Вы будете переведены в систему PayPal для безопасного осуществления денежного перевода.</string>
+    <string name="toast_paypal_price_is_empty">Пожалуйста введите сумму перевода</string>
+    <string name="bazar_tab_jewls">Изделия</string>
+    <string name="bazar_tab_stones">Камни</string>
+    <string name="bazar_tab_watches">Часы</string>
+    <string name="bazar_center_shape">Форма:</string>
+    <string name="bazar_total_weight">Общий вес камней:</string>
+    <string name="bazar_model">Модель:</string>
+    <string name="bazar_box">Коробка:</string>
+    <string name="bazar_docs">Документ:</string>
+    <string name="bazar_desc">Описание:</string>
+    <string name="bazar_seller">Продавец:</string>
+    <string name="bazar_phone">Тел:</string>
+    <string name="bazar_mail">Маил:</string>
+    <string name="bazar_skype">Skype:</string>
+    <string name="bazar_city">Город:</string>
+    <string name="bazar_filter_ttl">Выберите параментры фильта:</string>
+    <string name="bazar_filter_menu_btn">Фильтр</string>
+    <string name="bazar_filter_btn">ОТФИЛЬТРОВАТЬ</string>
+    <string name="bazar_question_mail_subj">Вопрос от пользователя DBay Базар</string>
+    <string name="bazar_mail_intent_ttl">Связаться с продавцом</string>
+    <string name="bazar_question_mail_body">Здравствуйте, у меня вопрос по поводу данного предложения:</string>
+    <string name="toast_cannot_make_calls">Сеть GSM/CDMA не доступна в данном устройстве</string>
+    <string name="toast_no_filter_results">Нет результатов по данному запросу</string>
+
+    <string-array name="certificates">
+        <item>---</item>
+        <item>EGL</item>
+        <item>IGL</item>
+        <item>GIA</item>
+    </string-array>
+</resources>

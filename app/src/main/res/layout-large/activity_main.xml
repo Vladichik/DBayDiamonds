@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentStart="true"
+    android:background="@drawable/main_bgr_style">
+
+    <fragment
+        android:name="main.dbay.MainScreenFragment"
+        android:id="@+id/fragment_place"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgr_main_section_border_right"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <fragment
+        android:name="main.dbay.mainwebview.WelcomeWebViewFragment"
+        android:id="@+id/data_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+</LinearLayout>

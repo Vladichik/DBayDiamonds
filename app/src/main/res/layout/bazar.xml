@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:dividerHeight="10.0sp" />
+
+        <LinearLayout
+            android:id="@+id/bazar_preloader"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:background="@drawable/bazar_preloader_style"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical">
+
+            <ProgressBar
+                android:id="@+id/progressBar2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:text="@string/loading"
+                android:textColor="@color/headers_color"
+                android:textSize="@dimen/popup_list_items" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/expandable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="7dp"
+            android:background="@drawable/bazar_tab_state_reg"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bazar_filter_ttl"
+                android:textColor="@color/blue_main_color"
+                android:textSize="@dimen/font_size_main_buttons" />
+
+            <Spinner
+                android:id="@+id/country_picker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/spinner_diamonds_style" />
+
+            <Spinner
+                android:id="@+id/cities_picker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/spinner_diamonds_style" />
+
+            <Spinner
+                android:id="@+id/item_picker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/spinner_diamonds_style" />
+            
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/states_buttons"
+                android:padding="10dp"
+                android:textColor="@color/headers_color"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/send_filter_request"
+                android:text="@string/bazar_filter_btn"/>
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="7dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/expand_toggle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bazar_submenu_button_height"
+            android:text="@string/bazar_filter_menu_btn"
+            android:textColor="@color/list_text_color"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/states_bazar_tabs" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="7dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/jewls_tab"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/bazar_submenu_button_height"
+            android:layout_weight="1"
+            android:background="@drawable/states_bazar_tabs"
+            android:text="@string/bazar_tab_jewls"
+            android:textColor="@color/list_text_color" />
+
+        <Button
+            android:id="@+id/stones_tab"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/bazar_submenu_button_height"
+            android:layout_weight="1"
+            android:background="@drawable/states_bazar_tabs"
+            android:text="@string/bazar_tab_stones"
+            android:textColor="@color/list_text_color" />
+
+        <Button
+            android:id="@+id/watches_tab"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/bazar_submenu_button_height"
+            android:layout_weight="1"
+            android:background="@drawable/states_bazar_tabs"
+            android:text="@string/bazar_tab_watches"
+            android:textColor="@color/list_text_color" />
+
+    </LinearLayout>
+
+</LinearLayout>

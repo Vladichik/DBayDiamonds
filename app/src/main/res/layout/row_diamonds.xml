@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:paddingLeft="7dp"
+    android:layout_height="40dp">
+
+    <CheckBox
+        android:layout_width="35dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:button="@drawable/checkbox_custom"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/row_checker" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue_main_color"
+        android:layout_gravity="center_vertical"
+        android:gravity="left"
+        android:id="@+id/diam_shape" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/diam_weight"
+        android:textColor="@color/blue_main_color"
+        android:gravity="left"
+        android:layout_gravity="center_vertical" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/diam_color"
+        android:textColor="@color/blue_main_color"
+        android:gravity="left"
+        android:paddingLeft="15dp"
+        android:layout_gravity="center_vertical" />
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue_main_color"
+        android:layout_gravity="center_vertical"
+        android:gravity="left"
+        android:id="@+id/diam_clarity" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/blue_main_color"
+        android:layout_gravity="center_vertical"
+        android:gravity="left"
+        android:paddingLeft="10dp"
+        android:visibility="gone"
+        android:id="@+id/diam_polish" />
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/blue_main_color"
+        android:id="@+id/diam_symmetry"
+        android:gravity="left"
+        android:paddingLeft="30dp"
+        android:visibility="gone"
+        android:layout_gravity="center_vertical" />
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/blue_main_color"
+        android:layout_gravity="center_vertical"
+        android:gravity="left"
+        android:paddingLeft="40dp"
+        android:visibility="gone"
+        android:id="@+id/diam_flur" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_weight="1"
+        android:textColor="@color/blue_main_color"
+        android:layout_gravity="center_vertical"
+        android:gravity="left"
+        android:visibility="gone"
+        android:id="@+id/diam_certificate" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_weight="1"
+        android:textColor="@color/blue_main_color"
+        android:layout_gravity="center_vertical"
+        android:gravity="left"
+        android:visibility="gone"
+        android:id="@+id/diam_dimmensions" />
+</LinearLayout>

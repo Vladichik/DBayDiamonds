@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bgr_style"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/stage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingTop="3dp"
+            android:paddingRight="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/listview_item_border"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/stage_item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blue_main_color"
+                    android:textSize="@dimen/font_size_main_buttons" />
+
+
+                <LinearLayout
+                    android:id="@+id/metal_section"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:text="@string/metal"
+                        android:textColor="@color/converted_price"
+                        android:textSize="@dimen/popup_list_items" />
+
+                    <TextView
+                        android:id="@+id/bazar_stage_metal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/headers_color"
+                        android:textSize="@dimen/popup_list_items" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/jewl_center_stone_section"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:text="@string/central_stone"
+                        android:textColor="@color/converted_price"
+                        android:textSize="@dimen/popup_list_items" />
+
+                    <TextView
+                        android:id="@+id/bazar_center_stone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/headers_color"
+                        android:textSize="@dimen/popup_list_items" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/stone_shape_section"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:text="@string/bazar_center_shape"
+                        android:textColor="@color/converted_price"
+                        android:textSize="@dimen/popup_list_items" />
+
+                    <TextView
+                        android:id="@+id/bazar_shape"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/headers_color"
+                        android:textSize="@dimen/popup_list_items" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/weight_section"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:text="@string/weight"
+                        android:textColor="@color/converted_price"
+                        android:textSize="@dimen/popup_list_items" />
+
+                    <TextView
+                        android:id="@+id/bazar_weight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/headers_color"
+                        android:textSize="@dimen/popup_list_items" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/color_section"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:text="@string/color"
+                        android:textColor="@color/converted_price"
+                        android:textSize="@dimen/popup_list_items" />
+
+                    <TextView
+                        android:id="@+id/bazar_color"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/headers_color"
+                        android:textSize="@dimen/popup_list_items" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/clarity_section"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:text="@string/clarity"
+                        android:textColor="@color/converted_price"
+                        android:textSize="@dimen/popup_list_items" />
+
+                    <TextView
+                        android:id="@+id/bazar_clarity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/headers_color"
+                        android:textSize="@dimen/popup_list_items" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/total_weight_section"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:text="@string/bazar_total_weight"
+                        android:textColor="@color/converted_price"
+                        android:textSize="@dimen/popup_list_items" />
+
+                    <TextView
+                        android:id="@+id/bazar_total"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/headers_color"
+                        android:textSize="@dimen/popup_list_items" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/certf_section"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:text="@string/certificate"
+                        android:textColor="@color/converted_price"
+                        android:textSize="@dimen/popup_list_items" />
+
+                    <TextView
+                        android:id="@+id/bazar_certificate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/headers_color"
+                        android:textSize="@dimen/popup_list_items" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/watch_model_section"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:text="@string/bazar_model"
+                        android:textColor="@color/converted_price"
+                        android:textSize="@dimen/popup_list_items" />
+
+                    <TextView
+                        android:id="@+id/bazar_model"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/headers_color"
+                        android:textSize="@dimen/popup_list_items" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/watch_box_section"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:text="@string/bazar_box"
+                        android:textColor="@color/converted_price"
+                        android:textSize="@dimen/popup_list_items" />
+
+                    <TextView
+                        android:id="@+id/bazar_box"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/headers_color"
+                        android:textSize="@dimen/popup_list_items" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/watch_docs_section"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:text="@string/bazar_docs"
+                        android:textColor="@color/converted_price"
+                        android:textSize="@dimen/popup_list_items" />
+
+                    <TextView
+                        android:id="@+id/bazar_docs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/headers_color"
+                        android:textSize="@dimen/popup_list_items" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:text="@string/bazar_desc"
+                        android:textColor="@color/converted_price"
+                        android:textSize="@dimen/popup_list_items" />
+
+                    <TextView
+                        android:id="@+id/bazar_description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="5dp"
+                        android:textColor="@color/headers_color"
+                        android:textSize="@dimen/popup_list_items" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/border_top_gray"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/coins" />
+
+                    <TextView
+                        android:id="@+id/bazar_dollars"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dp"
+                        android:textColor="@color/price_color"
+                        android:textSize="@dimen/font_stage_price" />
+
+                    <TextView
+                        android:id="@+id/bazer_conv_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="10dp"
+                        android:textColor="@color/converted_price"
+                        android:textSize="@dimen/popup_list_items" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/listview_item_border"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:text="@string/bazar_seller"
+                        android:textColor="@color/converted_price"
+                        android:textSize="@dimen/popup_list_items" />
+
+                    <TextView
+                        android:id="@+id/bazar_sellername"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="5dp"
+                        android:textColor="@color/headers_color"
+                        android:textSize="@dimen/popup_list_items" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:text="@string/bazar_phone"
+                        android:textColor="@color/converted_price"
+                        android:textSize="@dimen/popup_list_items" />
+
+                    <TextView
+                        android:id="@+id/bazar_sellerphone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="5dp"
+                        android:textColor="@color/blue_main_color"
+                        android:textSize="@dimen/popup_list_items" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:text="@string/bazar_skype"
+                        android:textColor="@color/converted_price"
+                        android:textSize="@dimen/popup_list_items" />
+
+                    <TextView
+                        android:id="@+id/bazar_sellerskype"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="5dp"
+                        android:textColor="@color/headers_color"
+                        android:textSize="@dimen/popup_list_items" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:text="@string/bazar_mail"
+                        android:textColor="@color/converted_price"
+                        android:textSize="@dimen/popup_list_items" />
+
+                    <TextView
+                        android:id="@+id/bazar_sellermail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="5dp"
+                        android:textColor="@color/blue_main_color"
+                        android:textSize="@dimen/popup_list_items" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:text="@string/bazar_city"
+                        android:textColor="@color/converted_price"
+                        android:textSize="@dimen/popup_list_items" />
+
+                    <TextView
+                        android:id="@+id/bazar_sellercity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="5dp"
+                        android:textColor="@color/headers_color"
+                        android:textSize="@dimen/popup_list_items" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/close_camera_pressed"
+        android:id="@+id/close_advert"/>
+</FrameLayout>
+

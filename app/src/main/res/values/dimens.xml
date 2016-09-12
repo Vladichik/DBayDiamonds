@@ -1,0 +1,18 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <bool name="isTablet">false</bool>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">5dp</dimen>
+    <dimen name="buttons_layout_margin">16dp</dimen>
+    <dimen name="font_size_main_buttons">17sp</dimen>
+    <dimen name="toast_font_size">16sp</dimen>
+    <dimen name="popup_list_items">15sp</dimen>
+    <dimen name="font_size_headers">13sp</dimen>
+    <dimen name="font_stage_price">18sp</dimen>
+    <dimen name="big_text_title">23sp</dimen>
+    <dimen name="stage_row_margin">4dp</dimen>
+    <dimen name="font_stage_text">15sp</dimen>
+    <dimen name="font_date_text">13sp</dimen>
+    <dimen name="bazar_prise_usd">15sp</dimen>
+    <dimen name="bazar_submenu_button_height">40dp</dimen>
+</resources>
